@@ -16,8 +16,14 @@ const laptop = {
   drivers: ['display and graphics', 'audio'],
   display_res: '1366 x 768',
   battery_percentage: 100,
+  
+  playGame: function() {
+    console.log('Playing Titanfall');
+}
+
 }; // object
 
+laptop.playGame();
 console.log(equipments)
 
 // manpulating arrays
@@ -42,11 +48,32 @@ function sayhello() {
 
 sayhello()
 
-function addnumbers(firstnumber= 4, secondnumber= 5) {
-  console.log(firstnumber + secondnumber)
+function newBalance(oldBalance = 0, spent = 0) {
+  const balance = oldBalance - spent;
+
+  return (balance);
 }
 
-addnumbers()
+const balance = newBalance(10000, 2000);
 
-//
+console.log(balance);
 
+const person = {
+  name: "David",
+  age: 27,
+  beards: false,
+  friends: ['Adama', 'Gift', 'Chidimma'],
+  car: {
+    name: 'Lexus 360',
+    age: 2
+  },
+  greet: function () {
+    return "Hello, I am David";
+  },
+  write: function () {
+    return '🚗';
+  }
+};
+
+console.log()
+person.greet()
