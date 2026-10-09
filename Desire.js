@@ -19,6 +19,15 @@ const laptop = {
         batteries: "Microsoft AC adapter",
     },
 
-}; //object
+    access: function (){
+        return "internet connection secured";
+    },
+    
+};
 
-console.log(laptop);
+ const internetConnection = laptop.access();
+ console.log(internetConnection);
+
+
+
+
