@@ -19,3 +19,34 @@ const laptop = {
 }; // object
 
 console.log(equipments)
+
+// manpulating arrays
+const fruits = ['mango', 'apple', 'orange', 'banana']
+
+console.log(fruits[2])
+
+const course = {
+  name: "Frontend Web Dev",
+  numberOfStudents: 12,
+  active: true,
+  students: ["Rosemary", "Jessica", "Somtoo", "Ginika", "John", "Clint", "Machi", "Desire", "Kene", "Michael", "Anthony", "Dex"],
+  tutor: {
+    name: "Chiemelie",
+    age: 15,
+  }
+};
+
+function sayhello() {
+  console.log('Hello, World')
+}
+
+sayhello()
+
+function addnumbers(firstnumber= 4, secondnumber= 5) {
+  console.log(firstnumber + secondnumber)
+}
+
+addnumbers()
+
+//
+
